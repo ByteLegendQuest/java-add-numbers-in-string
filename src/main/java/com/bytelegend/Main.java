@@ -8,13 +8,13 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        int a = 0, b = 0;
+        int aa = 0, bb = 0;
         if (null != a) {
-            a = Integer.parseInt(a);
+            aa = Integer.parseInt(a);
         }
         if (null != b) {
-            b = Integer.parseInt(b);
+            bb = Integer.parseInt(b);
         }
-        return a + b + "";
+        return aa + bb + "";
     }
 }
