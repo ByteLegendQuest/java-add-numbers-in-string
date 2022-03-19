@@ -13,7 +13,7 @@ public class Main {
         if (a != null) {
             aa = Integer.valueOf(a);
         }
-        if (a != null) {
+        if (b != null) {
             bb = Integer.valueOf(b);
         }
 
