@@ -7,5 +7,13 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a, String b) {}
+    public static String add(String a, String b) 
+        return parseOr0(a) + parseOr0(b);
+    }
+
+    private static int parseOr0(String str) {
+        return str == null ? 0 : Integer.parseInt(str);
+    }
+
 }
+
