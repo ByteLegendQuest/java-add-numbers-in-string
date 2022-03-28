@@ -1,9 +1,9 @@
-## [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Add Numbers in String
+# [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Add Numbers in String
 
 <details open='true'>
 <summary>English</summary>
 
-### Add Numbers in String
+## Add Numbers in String
 
 Complete [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java)'s `add` method, which can add numbers in parameter string,
 and return the result as a string.
@@ -15,6 +15,7 @@ Note that if any parameter is `null`, it should be treated as `0`, e.g. `add("12
   - Recommended for beginners: run `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` to download the code,
     finish the challenge in your local IDE, then copy/paste/submit the answer in web editor.
     - If you don't know how, you can click [import project into IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md)/[import project into VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md).
+    - Before submitting your code, you'd better run `mvn verify` locally to save time. Don't know how? See [verify locally in IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md)/[verify locally in VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md).
   - Very unrecommended: you can [click here to download zipped code](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) if you don't like `git` operations.
   - Or: if you are confident enough to write code in web editor directly, go ahead.
   - Or: if you are familiar with GitHub, you can fork [the repo](https://github.com/ByteLegendQuest/java-add-numbers-in-string), finish the challenge and create a pull request.
@@ -35,7 +36,7 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>简体中文</summary>
 
-### 将字符串中的数字相加
+## 将字符串中的数字相加
 
 实现[src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java)中的`add`方法，使之能将参数字符串中的数字相加后返回。
 例如，给定`a="123"`,`b="456"`，返回`"579"`，因为`123+456=579`
@@ -44,6 +45,7 @@ Any changes to files other than the following files will be rejected:**
 - 你可以使用以下任意一种方法完成挑战：
   - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-add-numbers-in-string`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
     - 如果你不知道怎么做，可以点击[导入IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/zh_hans/clone-and-import.md)/[导入VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/zh_hans/clone-and-import-vscode.md)。
+    - 在提交之前，你最好先在本地运行`mvn verify`验证一下答案，以节约时间。不知道如何做？请查看[在IDEA中本地验证](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/zh_hans/run-mvn-verify-idea.md)/[在VSCode中本地验证](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/zh_hans/run-mvn-verify-vscode.md)。
   - 非常不推荐：如果你实在不喜欢`git`命令行操作，你可以[点击这里直接下载打包好的代码](https://ghcodeload.bytelegend.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main)。
   - 或者：如果你非常自信不需要下载代码到本地调试，可以使用网页编辑器直接提交。
   - 或者：如果你对GitHub非常熟悉，你可以fork[这个仓库](https://github.com/ByteLegendQuest/java-add-numbers-in-string)、完成挑战后，创建一个Pull Request。
@@ -63,7 +65,8 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>繁體中文</summary>
 
-### 在字符串中添加數字
+在字符串中添加數字
+---------
 
 完成[src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java)的`add`方法，可以在參數字符串中添加數字，並將結果作為字符串返回。
 
@@ -72,6 +75,7 @@ Any changes to files other than the following files will be rejected:**
 -   您可以通過以下任何方式完成此挑戰：
     -   推薦給初學者：運行`git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string`下載代碼，在本地 IDE 中完成挑戰，然後在網頁編輯器中復制/粘貼/提交答案.
         -   如果你不知道怎麼做，你可以點擊[import project into IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) 。
+        -   在提交代碼之前，您最好在本地運行`mvn verify`以節省時間。不知道怎麼樣？請參閱[在 IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) [中進行本地驗證/在 VSCode 中進行本地驗證](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md)。
     -   非常不推薦：如果你不喜歡`git`操作，可以[點擊這裡下載壓縮代碼](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main)。
     -   或者：如果您有足夠的信心直接在 Web 編輯器中編寫代碼，請繼續。
     -   或者：如果你熟悉 GitHub，你可以 fork[倉庫](https://github.com/ByteLegendQuest/java-add-numbers-in-string)，完成挑戰並創建一個拉取請求。
@@ -90,7 +94,8 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>Español</summary>
 
-### Agregar números en cadena
+Agregar números en cadena
+-------------------------
 
 Complete el método `add` de [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , que puede agregar números en la cadena de parámetros y devolver el resultado como una cadena.
 
@@ -99,6 +104,7 @@ Por ejemplo, dado el parámetro `a="123"` , `b="456"` , el método debería devo
 -   Puede lograr este desafío de cualquier manera a continuación:
     -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en el editor web .
         -   Si no sabe cómo hacerlo, puede hacer clic en [importar proyecto a IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [importar proyecto a VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Antes de enviar su código, es mejor que ejecute `mvn verify` localmente para ahorrar tiempo. ¿No sabes cómo? Ver [verificar localmente en IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente en VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muy poco recomendado: puede [hacer clic aquí para descargar el código comprimido](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) si no le gustan las operaciones de `git` .
     -   O: si tiene la confianza suficiente para escribir código en el editor web directamente, adelante.
     -   O: si está familiarizado con GitHub, puede bifurcar [el repositorio](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , finalizar el desafío y crear una solicitud de extracción.
@@ -117,7 +123,8 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>العربية</summary>
 
-### أضف أرقامًا في سلسلة
+أضف أرقامًا في سلسلة
+--------------------
 
 أكمل [src / main / java / com / bytelegend / Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) طريقة `add` ، والتي يمكنها إضافة أرقام في سلسلة المعلمات ، وإرجاع النتيجة كسلسلة.
 
@@ -126,6 +133,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 -   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
     -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محرر الويب .
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
     -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-add-numbers-in-string) وإنهاء التحدي وإنشاء طلب سحب.
@@ -144,19 +152,21 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <details>
 <summary>Português</summary>
 
-### Adicionar números na string
+Adicionar números na string
+---------------------------
 
 Complete o método `add` de [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , que pode adicionar números na string de parâmetro e retornar o resultado como uma string.
 
 Por exemplo, dado o parâmetro `a="123"` , `b="456"` , o método deve retornar `"579"` porque `123+456=579` . Observe que se algum parâmetro for `null` , ele deve ser tratado como `0` , por exemplo, `add("123", null)=="123"` , `add(null, null)=="0"` .
 
--   Você pode realizar esse desafio de qualquer maneira abaixo:
+-   Você pode realizar este desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` para baixar o código, termine o desafio em seu IDE local e copie/cole/envie a resposta no editor da web .
-        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
     -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , finalizar o desafio e criar um pull request.
--   O bot verificará seu PR e informará se você cumpriu o desafio.
+-   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
 Boa sorte!
@@ -171,7 +181,8 @@ Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord]
 <details>
 <summary>Bahasa Indonesia</summary>
 
-### Tambahkan Angka dalam String
+Tambahkan Angka dalam String
+----------------------------
 
 Lengkapi metode `add` [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , yang dapat menambahkan angka dalam string parameter, dan mengembalikan hasilnya sebagai string.
 
@@ -180,6 +191,7 @@ Misalnya, diberikan parameter `a="123"` , `b="456"` , metode harus mengembalikan
 -   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
     -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web .
         -   Jika Anda tidak tahu caranya, Anda bisa mengklik [import project into IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Sebelum mengirimkan kode Anda, Anda sebaiknya menjalankan `mvn verify` secara lokal untuk menghemat waktu. Tidak tahu bagaimana? Lihat [verifikasi secara lokal di IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [verifikasi secara lokal di VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Sangat tidak direkomendasikan: Anda dapat [mengklik di sini untuk mengunduh kode zip](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) jika Anda tidak menyukai operasi `git` .
     -   Atau: jika Anda cukup percaya diri untuk menulis kode di editor web secara langsung, silakan.
     -   Atau: jika Anda terbiasa dengan GitHub, Anda dapat melakukan fork [repo](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , menyelesaikan tantangan, dan membuat permintaan tarik.
@@ -198,7 +210,8 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 <details>
 <summary>Français</summary>
 
-### Ajouter des nombres dans la chaîne
+Ajouter des nombres dans la chaîne
+----------------------------------
 
 Complétez la méthode `add` de [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , qui peut ajouter des nombres dans la chaîne de paramètres et renvoyer le résultat sous forme de chaîne.
 
@@ -207,6 +220,7 @@ Par exemple, étant donné le paramètre `a="123"` , `b="456"` , la méthode doi
 -   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
     -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans l'éditeur Web .
         -   Si vous ne savez pas comment, vous pouvez cliquer sur [importer le projet dans IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [importer le projet dans VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Avant de soumettre votre code, vous feriez mieux d'exécuter `mvn verify` localement pour gagner du temps. Vous ne savez pas comment ? Voir [vérifier localement dans IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [vérifier localement dans VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Très déconseillé : vous pouvez [cliquer ici pour télécharger le code compressé](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) si vous n'aimez pas les opérations `git` .
     -   Ou : si vous êtes suffisamment confiant pour écrire du code directement dans l'éditeur Web, continuez.
     -   Ou : si vous êtes familier avec GitHub, vous pouvez forker [le dépôt](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , terminer le défi et créer une demande d'extraction.
@@ -225,7 +239,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>日本語</summary>
 
-### 文字列に数値を追加する
+文字列に数値を追加する
+-----------
 
 [src / main / java / com / bytelegend / Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java)の`add`メソッドを完了します。このメソッドは、パラメーター文字列に数値を追加し、結果を文字列として返すことができます。
 
@@ -234,6 +249,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 -   この課題は、以下のいずれかの方法で達成できます。
     -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、Webエディターで回答をコピー/貼り付け/送信します。
         -   方法がわからない場合は、\[ [プロジェクトをIDEAにインポート](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md)\]/\[ [プロジェクトをVSCodeにインポート](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md)\]をクリックできます。
+        -   コードを送信する前に、時間を節約するためにローカルで`mvn verify`実行することをお勧めします。方法がわかりませんか？ [IDEAでローカルに](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md)[検証する/VSCodeでローカルに](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md)検証するを参照してください。
     -   非常に推奨されていません`git`操作が気に入らない場合は、 [ここをクリックしてzipコードをダウンロード](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main)できます。
     -   または：Webエディターで直接コードを記述できる自信がある場合は、先に進んでください。
     -   または：GitHubに精通している場合は[、リポジトリ](https://github.com/ByteLegendQuest/java-add-numbers-in-string)をフォークしてチャレンジを終了し、プルリクエストを作成できます。
@@ -252,7 +268,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Русский</summary>
 
-### Добавить числа в строку
+Добавить числа в строку
+-----------------------
 
 Завершите метод `add` [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , который может добавлять числа в строку параметров и возвращать результат в виде строки.
 
@@ -261,6 +278,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 -   Вы можете выполнить эту задачу любым способом, указанным ниже:
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` , чтобы загрузить код, завершите задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редакторе. .
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
     -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , выполнить задание и создать запрос на включение.
@@ -279,7 +297,8 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <details>
 <summary>Deutsch</summary>
 
-### Zahlen in Zeichenfolge hinzufügen
+Zahlen in Zeichenfolge hinzufügen
+---------------------------------
 
 Vervollständigen Sie die Methode `add` von [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , die Zahlen in die Parameterzeichenfolge einfügen und das Ergebnis als Zeichenfolge zurückgeben kann.
 
@@ -288,6 +307,7 @@ Beispielsweise sollte die Methode bei gegebenem Parameter `a="123"` , `b="456"` 
 -   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
     -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen Sie dann die Antwort im Web-Editor ein/übermitteln Sie sie .
         -   Wenn Sie nicht wissen wie, können Sie auf [Projekt in IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) [importieren / Projekt in VSCode importieren klicken](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Bevor Sie Ihren Code einreichen, sollten Sie `mvn verify` besser lokal ausführen, um Zeit zu sparen. Sie wissen nicht wie? Siehe [Lokal verifizieren in IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [Lokal verifizieren in VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Sehr nicht zu empfehlen: Sie können [hier klicken, um den gezippten Code herunterzuladen,](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) wenn Sie `git` -Operationen nicht mögen.
     -   Oder: Wenn Sie sicher genug sind, Code direkt im Web-Editor zu schreiben, fahren Sie fort.
     -   Oder: Wenn Sie sich mit GitHub auskennen, können Sie [das Repo forken](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , die Challenge beenden und einen Pull-Request erstellen.
@@ -306,7 +326,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>한국어</summary>
 
-### 문자열에 숫자 추가
+문자열에 숫자 추가
+----------
 
 매개변수 문자열에 숫자를 추가할 수 있는 [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) 의 `add` 메소드를 완료하고 결과를 문자열로 반환합니다.
 
@@ -315,6 +336,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 -   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
     -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` 을 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 웹 편집기에서 답변을 복사/붙여넣기/제출합니다. .
         -   방법을 모르는 경우 [프로젝트를 IDEA로](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) [가져오기 / 프로젝트를 VSCode로 가져](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) 오기를 클릭할 수 있습니다.
+        -   코드를 제출하기 전에 시간을 절약하기 위해 로컬에서 `mvn verify` 를 실행하는 것이 좋습니다. 방법을 모르십니까? [IDEA에서 로컬로](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) [확인/VSCode에서 로컬로](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) 확인을 참조하세요.
     -   매우 권장하지 않음: `git` 작업이 마음에 들지 않으면 [여기를 클릭하여 압축 코드를 다운로드](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) 할 수 있습니다.
     -   또는 웹 편집기에서 직접 코드를 작성할 만큼 자신이 있다면 계속 진행하십시오.
     -   또는 GitHub에 익숙하다면 리포지토리를 분기 [하고](https://github.com/ByteLegendQuest/java-add-numbers-in-string) 챌린지를 완료하고 풀 요청을 생성할 수 있습니다.
@@ -333,7 +355,8 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <details>
 <summary>Italiano</summary>
 
-### Aggiungi numeri nella stringa
+Aggiungi numeri nella stringa
+-----------------------------
 
 Completa il metodo `add` di [src/main/java/com/bytelegend/Main.java](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/src/main/java/com/bytelegend/Main.java) , che può aggiungere numeri nella stringa del parametro e restituire il risultato come stringa.
 
@@ -342,6 +365,7 @@ Ad esempio, dato il parametro `a="123"` , `b="456"` , il metodo dovrebbe restitu
 -   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
     -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-add-numbers-in-string` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta nell'editor web .
         -   Se non sai come fare, puoi fare clic su [importa progetto in IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import.md) / [importa progetto in VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Prima di inviare il codice, è meglio eseguire `mvn verify` in locale per risparmiare tempo. Non sai come? Vedere [verifica in locale in IDEA](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-idea.md) / [verifica in locale in VSCode](https://github.com/ByteLegendQuest/java-add-numbers-in-string/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Molto sconsigliato: puoi fare [clic qui per scaricare il codice zippato](https://codeload.github.com/ByteLegendQuest/java-add-numbers-in-string/zip/refs/heads/main) se non ti piacciono le operazioni `git` .
     -   Oppure: se sei abbastanza sicuro da scrivere il codice direttamente nell'editor web, vai avanti.
     -   Oppure: se hai familiarità con GitHub, puoi eseguire il fork [del repository](https://github.com/ByteLegendQuest/java-add-numbers-in-string) , completare la sfida e creare una richiesta pull.
