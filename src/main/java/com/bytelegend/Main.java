@@ -8,10 +8,10 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        Intger a1 = 0;
-        Intger b1 = 0;
-        if (a != null) a1 = Intger.valueOf(a);
-        if (b != null) b1 = Intger.valueOf(b);
+        Integer a1 = 0;
+        Integer b1 = 0;
+        if (a != null) a1 = Integer.valueOf(a);
+        if (b != null) b1 = Integer.valueOf(b);
         
         return (a1 + b1).toString();
     }
