@@ -13,6 +13,6 @@ public class Main {
         if (a != null) a1 = Integer.valueOf(a);
         if (b != null) b1 = Integer.valueOf(b);
         
-        return (a1 + b1).toString();
+        return String.valueOf(a1 + b1);
     }
 }
