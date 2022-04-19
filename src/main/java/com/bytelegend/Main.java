@@ -1,4 +1,4 @@
-package com.bytelegend;
+ppackage com.bytelegend;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +7,12 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a, String b) {}
+    public static String add(String a, String b) {
+        return String.valueOf(stringToInt(a)) + stringToInt(b);
+    }
+
+    public static int stringToInt(String s) {
+        if (s == null) return 0;
+        return Integer.parseInt(s);
+    }
 }
