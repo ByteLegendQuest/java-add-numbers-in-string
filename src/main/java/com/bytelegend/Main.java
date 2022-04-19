@@ -1,4 +1,4 @@
-ppackage com.bytelegend;
+package com.bytelegend;
 
 public class Main {
     public static void main(String[] args) {
