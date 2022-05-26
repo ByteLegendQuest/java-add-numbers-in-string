@@ -8,6 +8,6 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        String.valueOf(Integer.parseInt(a == null ? "0" : a) + Integer.parseInt(b == null ? "0" : b));
+        return String.valueOf(Integer.parseInt(a == null ? "0" : a) + Integer.parseInt(b == null ? "0" : b));
     }
 }
