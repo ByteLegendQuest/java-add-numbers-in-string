@@ -14,14 +14,11 @@ public class Main {
         if (checkForNull(b)) {
             b = "0";
         }
-        int addedValue = Integer.valueOf(a) + Integer.ValueOf(b);
+        int addedValue = Integer.parseInt(a) + Integer.parseInt(b);
         return String.valueOf(addedValue);
     }
 
     public static boolean checkForNull(String a) {
-        if (a == null) {
-            return true;
-        }
-        return false;
+        return a == null;
     }
 }
