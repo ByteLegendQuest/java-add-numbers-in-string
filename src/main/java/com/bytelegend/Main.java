@@ -18,7 +18,7 @@ public class Main {
             valueB = Integer.parseInt(b);
         }
 
-        return String.toString(valueA + valueB);
+        return Integer.toString(valueA + valueB);
         
     }
 }
