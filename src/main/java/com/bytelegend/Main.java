@@ -12,10 +12,10 @@ public class Main {
         int valueB = 0;
 
         if (a != null) {
-            int valueA = Integer.parseInt(a);
+            valueA = Integer.parseInt(a);
         }
         if (b != null) {
-            int valueB = Integer.parseInt(b);
+            valueB = Integer.parseInt(b);
         }
 
         return String.toString(valueA + valueB);
