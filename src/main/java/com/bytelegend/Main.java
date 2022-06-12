@@ -19,7 +19,7 @@ public class Main {
             int valueB = Integer.parseInt(b);
         }
 
-        return Integer.toString(valueA + valueB);
+        return String.toString(valueA + valueB);
         
     }
 }
