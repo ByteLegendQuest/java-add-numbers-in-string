@@ -14,6 +14,6 @@ public class Main {
         if (b.isEmpty()) {
             b = "0";
         }
-        return Integer.parseInt(a) + Integer.parseInt(b);
+        return String.valueOf(Integer.parseInt(a) + Integer.parseInt(b));
     }
 }
