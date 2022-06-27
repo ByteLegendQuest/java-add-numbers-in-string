@@ -9,11 +9,11 @@ public class Main {
 
     public static String add(String a, String b) {
         if (a == null) {
-            return 0 + b;
+            return 0 + (int) b;
             if (b == null) {
                 return 0;
             }
         }
-        return a + b;
+        return (int) a + (int) b;
     }
 }
