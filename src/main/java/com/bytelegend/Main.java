@@ -7,5 +7,13 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a, String b) {}
+    public static String add(String a, String b) {
+        if (a == null) {
+            return 0 + b;
+            if (b == null) {
+                return 0;
+            }
+        }
+        return a + b;
+    }
 }
