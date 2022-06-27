@@ -8,14 +8,8 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        if (a == null) {
-            return (String) (0 + (int) b);
-        }else if (b == null) {
-            return (String) ((int) a + 0);
-        }else if (a == null && b == null) {
-            return (String) 0;
-        }
-        sum = (int) a + (int) b;
-        return (String) sum;
+        Integer c = a == null ? 0 : Integer.valueOf(a);
+        Integer d = b == null ? 0 : Integer.valueOf(b);
+        return c + d + "";
     }
 }
