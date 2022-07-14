@@ -16,6 +16,6 @@ public class Main {
             resulting_string += Integer.parseInt(b);
         }
 
-        return resulting_string;
+        return  String.valueOf(resulting_string);
     }
 }
