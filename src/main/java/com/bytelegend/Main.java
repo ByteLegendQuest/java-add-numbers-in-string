@@ -8,14 +8,14 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        String resulting_string = "";
-        if(a != null) {
-            resulting_string += Integer.parseInt(a);
+        if(a == null) {
+            a = "0";
         }
-        if(b != null) {
-            resulting_string += Integer.parseInt(b);
+        if(b == null) {
+            b = "0";
         }
 
-        return  String.valueOf(resulting_string);
+        int stringFinal = Integer.parseInt(a) + Integer.parseInt(b);
+        return String.valueOf(stringFinal);
     }
 }
