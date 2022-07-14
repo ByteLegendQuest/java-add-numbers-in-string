@@ -8,6 +8,14 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        return "" + a + b + "";
+        String resulting_string = "";
+        if(a != null) {
+            resulting_string += a;
+        }
+        if(b != null) {
+            resulting_string += b;
+        }
+
+        return resulting_string;
     }
 }
