@@ -1,7 +1,5 @@
 package com.bytelegend;
 
-import java.text.ParseException;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println(add("123", "456"));
@@ -15,12 +13,11 @@ public class Main {
         try {
             la = Long.parseLong(a);
         } catch (NumberFormatException ignored) {
-            la = 0;
         }
         try {
             lb = Long.parseLong(b);
         } catch (NumberFormatException ignored) {
-            lb = 0;
         }
         return la + lb + "";
     }
+}
