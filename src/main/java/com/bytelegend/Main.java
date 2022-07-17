@@ -20,5 +20,5 @@ public class Main {
             lb = Long.parseLong(b);
         } catch (NumberFormatException ignored) {
         }
-        return la + lb + "";
+        return la + lb;
     }
