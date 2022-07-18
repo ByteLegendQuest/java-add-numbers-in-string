@@ -12,9 +12,9 @@ public class Main {
         return "" + ret;
     }
     public static int valueOf(String a){
-        if (a == null) {
+        if (a == null || a.length() < 1) {
         	return Integer.parseInt("0");
         }
-        return Integer.valueOf("0" + a);
+        return Integer.valueOf(a);
     }
 }
