@@ -8,6 +8,13 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        return new Integer(Integer.valueOf(a) + Integer.valueOf(b)).toString();
+        int ret = valueOf(a) + valueOf(b);
+        return "" + ret;
+    }
+    public static int valueOf(String a){
+        if (a == null) {
+        	return Integer.parseInt("0");
+        }
+        return Integer.valueOf("0" + a);
     }
 }
