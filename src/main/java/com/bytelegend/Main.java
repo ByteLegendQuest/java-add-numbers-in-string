@@ -16,3 +16,4 @@ public class Main {
         }
         return String.valueOf(Integer.parseInt(a)+Integer.parseInt(b));
     }
+}
