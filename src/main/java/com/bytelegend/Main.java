@@ -8,5 +8,11 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        return String.valueOf(Integer.parseInt(a)+Integer.parseInt(b))
+        if (a == null){
+            a = "0";
+        }
+        if (b == null){
+            b = "0";
+        }
+        return String.valueOf(Integer.parseInt(a)+Integer.parseInt(b));
     }
