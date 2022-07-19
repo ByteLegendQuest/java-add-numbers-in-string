@@ -8,5 +8,5 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        return (int)a+(int)b;
-}
+        return String.valueOf(Integer.parseInt(a)+Integer.parseInt(b))
+    }
