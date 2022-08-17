@@ -7,10 +7,5 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a, String b) {
-        int c,d;
-        c = a == null ? 0 : Integer.parseInt(a);
-        d = b == null ? 0 : Integer.parseInt(b);
-        return c + d + "";
-    }
+    public static String add(String a, String b) {}
 }
