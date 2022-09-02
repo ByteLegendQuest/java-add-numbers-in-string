@@ -8,8 +8,8 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        int a1;
-        int b1;
+        Integar a1;
+        Integar b1;
         if (a == null) {
             a = "0";
         }
