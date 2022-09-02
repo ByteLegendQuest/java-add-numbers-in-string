@@ -8,23 +8,15 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        if (a == null && b != null) {
-            int a1 = 0;
-            int b1 = Integar.valueOf(b);
-            return String.valueOf(a1 + b1);
+        int a1;
+        int b1;
+        if (a != null) {
+            a1 = Integar.valueOf(a);
         }
-        else if (b == null && a != null) {
-            int b1 = 0;
-            int a1 = Integar.valueOf(a);
-            return String.valueOf(a1 + b1);
+        if (b != null) {
+            b1 = Integar.valueOf(b);
         }
-        else if (a == null && b == null) {
-            return "0";
-        }
-        else {
-            int a1 = Integar.valueOf(a);
-            int b1 = Integar.valueOf(b);
-            return String.valueOf(a1 + b1);
-        }
+        
+        return String.valueOf(a1 + b1);
     }
 }
