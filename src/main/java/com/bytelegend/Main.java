@@ -8,12 +8,12 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        if (a == null) {
+        if (a == null && b != null) {
             int a1 = 0;
             int b1 = Integar.valueOf(b);
             return String.valueOf(a1 + b1);
         }
-        else if (b == null) {
+        else if (b == null && a != null) {
             int b1 = 0;
             int a1 = Integar.valueOf(a);
             return String.valueOf(a1 + b1);
