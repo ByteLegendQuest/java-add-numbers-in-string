@@ -16,8 +16,8 @@ public class Main {
         if (b == null) {
             b = "0";
         }
-        a1 = Integar.valueOf(a);
-        b1 = Integar.valueOf(b);
+        a1 = Integar.parseInt(a);
+        b1 = Integar.parseInt(b);
         return String.valueOf(a1 + b1);
     }
 }
