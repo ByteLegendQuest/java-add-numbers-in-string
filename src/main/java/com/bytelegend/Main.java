@@ -8,16 +8,16 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        Integar a1;
-        Integar b1;
+        Integer a1;
+        Integer b1;
         if (a == null) {
             a = "0";
         }
         if (b == null) {
             b = "0";
         }
-        a1 = Integar.parseInt(a);
-        b1 = Integar.parseInt(b);
+        a1 = Integer.parseInt(a);
+        b1 = Integer.parseInt(b);
         return String.valueOf(a1 + b1);
     }
 }
