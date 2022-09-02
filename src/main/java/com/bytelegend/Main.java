@@ -19,7 +19,7 @@ public class Main {
             return String.valueOf(a1 + b1);
         }
         else if (a == null && b == null) {
-            return '0';
+            return "0";
         }
         else {
             int a1 = Integar.valueOf(a);
