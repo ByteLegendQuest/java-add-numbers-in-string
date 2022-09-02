@@ -18,8 +18,8 @@ public class Main {
         if (bs == null) {
             bs = "0";
         }
-        a1 = Integer.parseInt(a);
-        b1 = Integer.parseInt(b);
+        a1 = Integer.parseInt(as);
+        b1 = Integer.parseInt(bs);
         return String.valueOf(a1 + b1);
     }
 }
