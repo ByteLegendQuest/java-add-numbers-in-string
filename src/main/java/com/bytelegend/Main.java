@@ -1,5 +1,7 @@
 package com.bytelegend;
 
+import java.util.Optional;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println(add("123", "456"));
@@ -8,10 +10,8 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        if (b == null) {
-            return a;
-        } else if (a == null && b == null) {
-            return String.valueOf(0);
-        }
+        int numberA = Integer.parseInt(Optional.ofNullable(a).orElse("0"));
+        int numberB = Integer.parseInt(Optional.ofNullable(b).orElse("0"));
+        return "" + (numberA + numberB);
     }
 }
