@@ -11,6 +11,6 @@ public class Main {
        int n = a != null ? Integer.parseInt(a) : 0;
        int m = b != null ? Integer.parseInt(b) : 0;
 
-       return (a + b).toString();
+       return (n + m).toString();
     }
 }
