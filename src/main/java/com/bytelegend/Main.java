@@ -15,8 +15,7 @@ public class Main {
         }else if(b==null){
             return a;
         }else{
-            Long num = Long.parseLong(a) + Long.parseLong(b);
-            return num.toString();
+            return String.valueOf(Integer.parseInt(a)+Integer.parseInt(b));
         }
     }
 }
