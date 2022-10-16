@@ -7,5 +7,15 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a, String b) {}
+    public static String add(String a, String b) {
+        int aValue = 0;
+        if (a != null) {
+            aValue = Integer.parseInt(a);
+        }
+        int bValue = 0;
+        if (b != null) {
+            bValue = Integer.parseInt(b);
+        }
+        return "" + (aValue + bValue);
+    }
 }
