@@ -8,13 +8,14 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        if (a==null) {
-            a = "0";
-        }else if(b==null){
-            b = "0";
+        int a1 = 0;
+        if (a != null) {
+            a1 = Integer.parseInt(a);
         }
-        int x = Integer.parseInt(a);
-        int y = Integer.parseInt(b);
-        return "" + (x + y);
+        int b1 = 0;
+        if (b != null) {
+            b1 = Integer.parseInt(b);
+        }
+        return "" + (a1 + b1);
     }
 }
