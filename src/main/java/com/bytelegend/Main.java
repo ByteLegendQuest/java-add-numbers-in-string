@@ -14,7 +14,7 @@ public class Main {
             b = "0";
         }
         int x = Integer.parseInt(a);
-        int y = Integer.parseInt(b)
+        int y = Integer.parseInt(b);
         return "" + (x + y);
     }
 }
