@@ -10,12 +10,8 @@ public class Main {
     public static String add(String a, String b) {
         int numA = 0;
         int numB = 0;
-        if (a != null) {
-            numA = Integer.parseInt(a);
-        }
-        if (b != null) {
-            numB = Integer.parseInt(b);
-        }
+        if (a != null) numA = Integer.parseInt(a);
+        if (b != null) numB = Integer.parseInt(b);
         return String.valueof(numA + numB)
     }
 }
