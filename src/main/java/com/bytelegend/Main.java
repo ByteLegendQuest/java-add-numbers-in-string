@@ -12,6 +12,6 @@ public class Main {
         int numB = 0;
         if (a != null) numA = Integer.parseInt(a);
         if (b != null) numB = Integer.parseInt(b);
-        return String.valueof(numA + numB);
+        return String.valueOf(numA + numB);
     }
 }
