@@ -8,17 +8,18 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        int numA, numbB;
+        int numA;
+        int numB;
         if (a == null) {
             numA = 0;
         } else {
             numA = Integer.parseInt(a);
         }
         if (b == null) {
-            numbB = 0;
+            numB = 0;
         } else {
             numB = Integer.parseInt(b);
         }
-        return String.valueof(numA + numbB);
+        return String.valueof(numA + numB)
     }
 }
