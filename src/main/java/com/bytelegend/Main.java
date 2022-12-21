@@ -9,10 +9,10 @@ public class Main {
 
     public static String add(String a, String b) {
         int aa = 0, bb = 0;
-        if (a) {
+        if (a != null) {
             aa = Integer.parseInt(a);
         }
-        if (b) {
+        if (b != null) {
             bb = Integer.parseInt(b);
         }
         return String.valueOf(aa + bb);
