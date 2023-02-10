@@ -10,6 +10,6 @@ public class Main {
     public static String add(String a, String b) {
         Integer a1 = Integer.parseInt(a);
         Integer b1 = Integer.parseInt(b);
-        return a1 + b1;
+        return String.valueOf(a1 + b1);
     }
 }
