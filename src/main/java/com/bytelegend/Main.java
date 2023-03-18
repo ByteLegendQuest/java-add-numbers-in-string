@@ -10,7 +10,7 @@ public class Main {
         int c = 0;
         int d = 0;
         if (a != null) {
-            c = Integer.parseInt(s);;
+            c = Integer.parseInt(a);;
         }
         if (b != null) {
             d = Integer.parseInt(b);
