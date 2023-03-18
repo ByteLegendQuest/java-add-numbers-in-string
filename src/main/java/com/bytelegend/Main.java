@@ -11,11 +11,11 @@ public class Main {
         int c = 0;
         int d = 0;
         if (a != null) {
-            c = Integer.parseInt(a);
+            c = Integer.parseInt(s);;
         }
         if (b != null) {
             d = Integer.parseInt(b);
         }
-        return c + d;
+        return String.valueOf(c + d);
     }
 }
