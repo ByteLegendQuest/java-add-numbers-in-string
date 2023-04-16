@@ -14,6 +14,8 @@ public class Main {
         if (b == null) {
             b = "0";
         }
-        return a + b;
+        int A = Integer.parseInt(a);
+        int B = Integer.parseInt(b);
+        return Integer.toString(A + B);
     }
 }
