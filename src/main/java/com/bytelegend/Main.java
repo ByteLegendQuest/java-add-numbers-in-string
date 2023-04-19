@@ -8,11 +8,8 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        if (a == null) {
-            a = "0";
-        }
-        if (b == null) {
-            b = "0";
+        if (a == null && b == null) {
+            return "0";
         }
 
         return "" + a + b;
