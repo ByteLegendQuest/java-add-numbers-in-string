@@ -7,7 +7,7 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a1, String b1) {
+    public static String add(String pa, String pb) {
         String result = "";
         String a = pa; // This is stupid
         String b = pb;
