@@ -14,8 +14,8 @@ public class Main {
         if (a == null) a = "0";
         if (b == null) b = "0";
         for (int i = 0; i < a.length() || i < b.length(); i++) {
-            int v1 = i < a.length() ? Integer.parseInt(a.charAt(i)) : 0;
-            int v2 = i < b.length() ? Integer.parseInt(b.charAt(i)) : 0;
+            int v1 = i < a.length() ? Integer.parseInt(a.charAt(i) + "") : 0;
+            int v2 = i < b.length() ? Integer.parseInt(b.charAt(i) + "") : 0;
             result += v1 + v2;
         }
         return result;
