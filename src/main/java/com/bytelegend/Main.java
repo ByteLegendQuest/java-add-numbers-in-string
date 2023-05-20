@@ -7,8 +7,10 @@ public class Main {
         System.out.println(add(null, null));
     }
 
-    public static String add(String a, String b) {
+    public static String add(String a1, String b1) {
         String result = "";
+        String a = pa; // This is stupid
+        String b = pb;
         if (a == null) a = "0";
         if (b == null) b = "0";
         for (int i = 0; i < a.length() || i < b.length(); i++) {
