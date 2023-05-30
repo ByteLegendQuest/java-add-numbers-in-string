@@ -8,22 +8,20 @@ public class Main {
     }
 
     public static String add(String a, String b) {
-        int sum = 0;
-        if(a == null) {
-            if(b == null) {
-                return 0;
-            } else {
-                return b;
-            }
-        } else if(b == null) {
-            if(a == null) {
-                return 0;
-            } else {
-                return a;
-            }
-            
+        int tempA;
+        int tempB;
+        if (a == null) {
+            tempA = 0;
         } else {
-            return Integer.toString(Integer.parseInt(a) + Integer.parseInt(b));
+            tempA = Integer.parseInt(a);
         }
+
+        if (b == null) {
+            tempB = 0;
+        } else {
+            tempB = Integer.parseInt(b);
+        }
+
+        return Integer.toString(tempA + tempB);
     }
 }
