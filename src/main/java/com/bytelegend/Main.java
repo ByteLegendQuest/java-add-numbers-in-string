@@ -11,6 +11,6 @@ public class Main {
         int sum = 0;
         if (a != null) sum += Integer.parseInt(a);
         if (b != null) sum += Integer.parseInt(b);
-        return sum;
+        return Integer.toString(sum);
     }
 }
